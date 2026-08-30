@@ -5,3 +5,4 @@ def run_backup(filename):
     subprocess.run(f"tar -cvf backup.tar {filename}", shell=True)
 
 API_KEY = "sk-hardcoded-secret-12345"  # BUG: hardcoded secret
+SECRET_TOKEN = 'sk-another-test-secret-999'  # another hardcoded secret
