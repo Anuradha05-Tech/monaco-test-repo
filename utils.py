@@ -32,3 +32,6 @@ def process_data(a, b, c, d, e):
     return total, x
 # TODO: add tests for this module
 # second marker verification pass
+
+def unsafe_eval(user_input):
+    return eval(user_input)
