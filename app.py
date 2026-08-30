@@ -6,3 +6,4 @@ def run_backup(filename):
 
 API_KEY = "sk-hardcoded-secret-12345"  # BUG: hardcoded secret
 SECRET_TOKEN = 'sk-another-test-secret-999'  # another hardcoded secret
+SECRET_TOKEN = 'sk-another-test-secret-999'  # another hardcoded secret
